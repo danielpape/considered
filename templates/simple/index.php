@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="<?php echo($template_dir_url); ?>subdiv.css">
         <link href='http://fonts.googleapis.com/css?family=Cabin:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
         <?php get_header(); ?>
     </head>
@@ -39,11 +40,12 @@
     	line-height: 1.5em;
     	color: #373737;
     	text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
     	margin-bottom: 1.5em;
       margin-left: auto;
       margin-right: auto;
       margin-top: 1.5em;
-      max-width: 30em;
+      max-width: 560px;
       orphans: 2;
       text-align: left;
       widows: 2;
@@ -105,8 +107,11 @@
     }
 
     h1, h2, h3, h4 {
-        font-size: 24px;
-        line-height: 39px;
+        font-size: 96px;
+        line-height: 88px;
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        margin-bottom: 32px;
     }
 
     h3, h4 {

@@ -21,11 +21,12 @@ body {
   line-height: 2em;
   color: #373737;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   margin-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.5em;
-  max-width: 35em;
+  max-width: 560px;
   orphans: 2;
   text-align: left;
   widows: 2;
