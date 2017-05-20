@@ -8,7 +8,6 @@
         <?php echo($page_meta); ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="<?php echo($template_dir_url); ?>style.css">
         <link rel="stylesheet" href="<?php echo($template_dir_url); ?>subdiv.css">
         <link href='http://fonts.googleapis.com/css?family=Cabin:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
@@ -44,8 +43,6 @@
     	margin-bottom: 1.5em;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 1.5em;
-      max-width: 560px;
       orphans: 2;
       text-align: left;
       widows: 2;
@@ -81,6 +78,35 @@
 
     }
 
+    .heroImage {
+      width: 100%;
+      margin-bottom: -500px;
+      max-height: 100vh;
+    }
+
+    .intro {
+        font-family: 'Cabin',sans-serif;
+        font-size: 19px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 180px;
+      line-height: 28px;
+      color: white;
+      opacity: 0.7;
+    }
+
+    .main {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 60px;
+      padding-left: 16px;
+      padding-right: 16px;
+      max-width: 560px;
+      font-size: 17px;
+      line-height: 28px;
+    }
+
     #menu {
     line-height: 40px;
     font-size: 1em;
@@ -98,6 +124,12 @@
 
     /* Typography
     *********************************************************************************************/
+
+    h1{
+      margin-bottom: 32px !important;
+      color: white !important;
+      opacity: 0.7 !important;
+    }
 
     h1, h2, h3, h4, h5, h6 {
       font-weight: 400;
@@ -171,7 +203,6 @@
     article {
         width: 100%;
         border-bottom: 1px solid #f1f1f1;
-        padding: 60px 0;
     }
 
     article.draft {
@@ -254,6 +285,7 @@
         width: 100%;
         float: left;
         margin: 0;
+        margin-bottom: 120px;
     }
 
     ul.actions li {
@@ -263,16 +295,25 @@
         list-style: none;
     }
 
+    ul.actions > li > a{
+      font-size: 17px;
+      line-height: 24px;
+    }
+
     .tag {
-      display: inline;
-      background-color: #fff;
-    	border: 1px solid #000;
+      background-color: #ec1232;
+      color: white;
       margin-top: -5px;
-      padding: 3px 10px 3px 10px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 7px 15px 7px 15px;
       text-align: center;
-      font-family: Arial, sans-serif;
-      border-radius: 20px;
-      font-size: 0.7em;
+      font-size: 20px;
+      display: inline;
+    }
+
+    .tag > a {
+      color: white;
     }
 
     /* Meta
@@ -431,8 +472,8 @@
         *****************************************************************************************/
 
         h1, h2 {
-            font-size: 18px;
-            line-height: 29px;
+            font-size: 72px;
+            line-height: 68px;
         }
 
         h3, h4 {
@@ -478,7 +519,7 @@
         *****************************************************************************************/
 
         article {
-            padding: 40px 0;
+            padding: 12px 0;
         }
 
 
